@@ -10,7 +10,9 @@ Inspect element på siden du vil laste ned fra. Naviger deg til "console".
 Kopier dette og trykk enter:
 
 const links = Array.from(document.querySelectorAll('a[href$=".pdf"]'));
+
 const pdfLinks = links.map(link => link.href);
+
 console.log(pdfLinks);
 
 Kopier arrayet du får ut, og bytt det ut med arrayet som er i python-skriptet

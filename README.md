@@ -15,7 +15,8 @@ const pdfLinks = links.map(link => link.href);
 
 console.log(pdfLinks);
 
-Kopier arrayet du får ut, og bytt det ut med arrayet som er i python-skriptet
+Kopier arrayet du får ut, og bytt det ut med arrayet som er i python-skriptet. 
+!Merk at du må høyreklikke arrayet, og velge "copy object". Det er ikke lurt å markere det for så å kopiere med cmd+c. Da vil du kanskje få problemer med avkortede lenker.
 
 **Steg 2**
 
